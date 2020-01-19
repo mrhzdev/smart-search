@@ -1,0 +1,50 @@
+version: "2"
+services:
+
+  # Web service layer
+  nginx:
+    container_name: sms-nginx
+    image: nginx:1.13
+    volumes:
+      - ".:/var/www/html"
+      - "./nginx.conf:/etc/nginx/nginx.conf"
+    ports:
+      - "80:80"
+    depends_on:
+      - php
+
+  # Application service layer
+  php:
+    container_name: sms-php
+    build:
+      context: .
+    volumes:
+      - .:/var/www/html
+      - "/var/www/html/vendor"
+    ports:
+      - "9000:9000"
+
+  sms01:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
+    container_name: sms01
+    environment:
+        - node.name=sms01
+        - cluster.name=es-docker-cluster
+        - discovery.type=single-node
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - smsdata01:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+    networks:
+      - esnet
+
+volumes:
+  smsdata01:
+    driver: local
+
+networks:
+  esnet:
