@@ -21,7 +21,7 @@ services:
       context: .
     volumes:
       - ./:/var/www/html
-      - /var/www/html/vendor
+      # - /var/www/html/vendor
     ports:
       - "9000:9000"
 
