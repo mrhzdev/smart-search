@@ -13,6 +13,8 @@ services:
       - "80:80"
     depends_on:
       - php
+    networks:
+      - esnet
 
   # Application service layer
   php:
@@ -24,27 +26,53 @@ services:
       # - /var/www/html/vendor
     ports:
       - "9000:9000"
+    networks:
+      - esnet
 
-  sms01:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
-    container_name: sms01
+  es01:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.1
+    container_name: es01
     environment:
-        - node.name=sms01
-        - cluster.name=es-docker-cluster
-        - discovery.type=single-node
+      - node.name=es01
+      - discovery.seed_hosts=es02
+      - cluster.initial_master_nodes=es01,es02
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     ulimits:
       memlock:
         soft: -1
         hard: -1
     volumes:
-      - smsdata01:/usr/share/elasticsearch/data
+      - esdata01:/usr/share/elasticsearch/data
     ports:
       - 9200:9200
     networks:
       - esnet
 
+  es02:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.1
+    container_name: es02
+    environment:
+      - node.name=es02
+      - discovery.seed_hosts=es01
+      - cluster.initial_master_nodes=es01,es02
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata02:/usr/share/elasticsearch/data
+    networks:
+      - esnet
+
 volumes:
-  smsdata01:
+  esdata01:
+    driver: local
+  esdata02:
     driver: local
 
 networks:
