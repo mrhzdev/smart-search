@@ -1,0 +1,434 @@
+[
+  {
+    "key": "hardware",
+    "desc": "Hardware"
+  },
+  {
+    "key": "ssd-2-5",
+    "desc": "SSD 2.5"
+  },
+  {
+    "key": "controladoras",
+    "desc": "Controladoras"
+  },
+  {
+    "key": "rede-wireless-sem-fio",
+    "desc": "Rede Wireless (Sem fio)"
+  },
+  {
+    "key": "rede-wired-com-fio",
+    "desc": "Rede Wired (Com fio)"
+  },
+  {
+    "key": "placas-de-som",
+    "desc": "Placas de Som"
+  },
+  {
+    "key": "processadores",
+    "desc": "Processadores"
+  },
+  {
+    "key": "placas-mae",
+    "desc": "Placas Mãe"
+  },
+  {
+    "key": "switch-kvm",
+    "desc": "Switch KVM"
+  },
+  {
+    "key": "streamer",
+    "desc": "Streamer"
+  },
+  {
+    "key": "modem",
+    "desc": "Modem"
+  },
+  {
+    "key": "memoria-ram",
+    "desc": "Memoria RAM"
+  },
+  {
+    "key": "fontes",
+    "desc": "Fontes"
+  },
+  {
+    "key": "drives",
+    "desc": "drives"
+  },
+  {
+    "key": "disco-rigido-hd",
+    "desc": "Disco Rígido HD"
+  },
+  {
+    "key": "coolers",
+    "desc": "Coolers"
+  },
+  {
+    "key": "placa-de-video-vga",
+    "desc": "Placa de Video VGA"
+  },
+  {
+    "key": "celular-telefone",
+    "desc": "Celular Telefone"
+  },
+  {
+    "key": "smartphones",
+    "desc": "Smartphones"
+  },
+  {
+    "key": "alcatel",
+    "desc": "Alcatel"
+  },
+  {
+    "key": "semp-go",
+    "desc": "Semp GO"
+  },
+  {
+    "key": "tcl",
+    "desc": "TCL"
+  },
+  {
+    "key": "meizu",
+    "desc": "Meizu"
+  },
+  {
+    "key": "tp-link",
+    "desc": "TP-Link"
+  },
+  {
+    "key": "quantum",
+    "desc": "Quantum"
+  },
+  {
+    "key": "asus",
+    "desc": "ASUS"
+  },
+  {
+    "key": "blu",
+    "desc": "BLU"
+  },
+  {
+    "key": "multilaser",
+    "desc": "Multilaser"
+  },
+  {
+    "key": "samsung",
+    "desc": "Samsung"
+  },
+  {
+    "key": "sony",
+    "desc": "Sony"
+  },
+  {
+    "key": "positivo",
+    "desc": "Positivo"
+  },
+  {
+    "key": "motorola",
+    "desc": "Motorola"
+  },
+  {
+    "key": "lg",
+    "desc": "LG"
+  },
+  {
+    "key": "apple",
+    "desc": "Apple"
+  },
+  {
+    "key": "xiaomi",
+    "desc": "Xiaomi"
+  },
+  {
+    "key": "perifericos",
+    "desc": "perifericos"
+  },
+  {
+    "key": "acessorios",
+    "desc": "Acessorios"
+  },
+  {
+    "key": "-mouse-gamer",
+    "desc": "Mouse Gamer"
+  },
+  {
+    "key": "kit-gamer",
+    "desc": "Kit Gamer"
+  },
+  {
+    "key": "headset-gamer",
+    "desc": "Headset Gamer"
+  },
+  {
+    "key": "escritorio",
+    "desc": "Escritorio"
+  },
+  {
+    "key": "mesa-digitalizadora",
+    "desc": "Mesa Digitalizadora"
+  },
+  {
+    "key": "video-conferencia",
+    "desc": "Video Conferencia"
+  },
+  {
+    "key": "pen-drive",
+    "desc": "Pen-drive"
+  },
+  {
+    "key": "gabinetes",
+    "desc": "Gabinetes"
+  },
+  {
+    "key": "suprimentos",
+    "desc": "Suprimentos"
+  },
+  {
+    "key": "webcam",
+    "desc": "Webcam"
+  },
+  {
+    "key": "som-acessorios",
+    "desc": "Som Acessorios"
+  },
+  {
+    "key": "energia",
+    "desc": "Energia"
+  },
+  {
+    "key": "suportes",
+    "desc": "Suportes"
+  },
+  {
+    "key": "bolsas",
+    "desc": "Bolsas"
+  },
+  {
+    "key": "cabos",
+    "desc": "Cabos"
+  },
+  {
+    "key": "adaptadores",
+    "desc": "Adaptadores"
+  },
+  {
+    "key": "teclado-gamer",
+    "desc": "Teclado gamer"
+  },
+  {
+    "key": "teclado-mouse",
+    "desc": "Teclado mouse"
+  },
+  {
+    "key": "computadores",
+    "desc": "Computadores"
+  },
+  {
+    "key": "computador-gamer",
+    "desc": "Computador Gamer"
+  },
+  {
+    "key": "tablets-acessorios",
+    "desc": "Tablets Acessorios"
+  },
+  {
+    "key": "tablets",
+    "desc": "Tablets"
+  },
+  {
+    "key": "softwares",
+    "desc": "Softwares"
+  },
+  {
+    "key": "servidores",
+    "desc": "Servidores"
+  },
+  {
+    "key": "scanners",
+    "desc": "Scanners"
+  },
+  {
+    "key": "impressoras",
+    "desc": "Impressoras"
+  },
+  {
+    "key": "notebooks-ultrabooks",
+    "desc": "Notebooks Ultrabooks"
+  },
+  {
+    "key": "notebook-gamer",
+    "desc": "Notebook Gamer"
+  },
+  {
+    "key": "monitores",
+    "desc": "Monitores"
+  },
+  {
+    "key": "amd-ati",
+    "desc": "AMD ATI"
+  },
+  {
+    "key": "nvidia",
+    "desc": "NVidia"
+  },
+  {
+    "key": "lcd",
+    "desc": "LCD"
+  },
+  {
+    "key": "led",
+    "desc": "LED"
+  },
+  {
+    "key": "gamers",
+    "desc": "Gamers"
+  },
+  {
+    "key": "mouse-com-fio",
+    "desc": "Mouse com Fio"
+  },
+  {
+    "key": "mouse-sem-fio",
+    "desc": "Mouse sem Fio"
+  },
+  {
+    "key": "teclado-com-fio",
+    "desc": "Teclado com Fio"
+  },
+  {
+    "key": "teclado-sem-fio",
+    "desc": "Teclado sem Fio"
+  },
+  {
+    "key": "teclado-mouse-combo",
+    "desc": "Teclado mouse Combo"
+  },
+  {
+    "key": "mouse-pad",
+    "desc": "Mouse Pad"
+  },
+  {
+    "key": "gamer",
+    "desc": "Gamer"
+  },
+  {
+    "key": "playstation-3",
+    "desc": "Playstation 3"
+  },
+  {
+    "key": "nintendo-switch",
+    "desc": "NintendoSwitch"
+  },
+  {
+    "key": "cadeiras-gamer",
+    "desc": "Cadeiras Gamer"
+  },
+  {
+    "key": "tectoy",
+    "desc": "TecToy"
+  },
+  {
+    "key": "e-sports",
+    "desc": "E-Sports"
+  },
+  {
+    "key": "pc",
+    "desc": "PC"
+  },
+  {
+    "key": "playstaption-4",
+    "desc": "Playstation 4"
+  },
+  {
+    "key": "xbox-one",
+    "desc": "Xbox One"
+  },
+  {
+    "key": "xbox-360",
+    "desc": "Xbox 360"
+  },
+  {
+    "key": "mesa-gamer",
+    "desc": "Mesa Gamer"
+  },
+  {
+    "key": "cameras-digitais",
+    "desc": "Cameras Digitais"
+  },
+  {
+    "key": "cartoes-de-memoria",
+    "desc": "Cartões de Memória"
+  },
+  {
+    "key": "eletronicos",
+    "desc": "Eletronicos"
+  },
+  {
+    "key": "casa-jardim",
+    "desc": "Casa Jardim"
+  },
+  {
+    "key": "beleza-saude",
+    "desc": "Beleza Saúde"
+  },
+  {
+    "key": "presentes",
+    "desc": "Presentes"
+  },
+  {
+    "key": "brinquedos",
+    "desc": "Brinquedos"
+  },
+  {
+    "key": "geek",
+    "desc": "Geek"
+  },
+  {
+    "key": "smart-home",
+    "desc": "Smart Home"
+  },
+  {
+    "key": "tv-audio",
+    "desc": "TV Audio"
+  },
+  {
+    "key": "esporte-e-lazer",
+    "desc": "Esporte e Lazer"
+  },
+  {
+    "key": "automacao",
+    "desc": "Automação"
+  },
+  {
+    "key": "ferramentas",
+    "desc": "Ferramentas"
+  },
+  {
+    "key": "instrumento-musical",
+    "desc": "Instrumento Musical"
+  },
+  {
+    "key": "relogios",
+    "desc": "Relógios"
+  },
+  {
+    "key": "seguranca",
+    "desc": "Segurança"
+  },
+  {
+    "key": "automotivo",
+    "desc": "Automotivo"
+  },
+  {
+    "key": "video-som",
+    "desc": "Video Som"
+  },
+  {
+    "key": "eletroportateis",
+    "desc": "Eletroportateis"
+  },
+  {
+    "key": "projetores",
+    "desc": "Projetores"
+  }
+]
